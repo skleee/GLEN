@@ -9,7 +9,7 @@ GLEN (***G**enerative retrieval via **LE**xical ***N***dex learning*) is a gener
 
 ![GLEN](assets/model.png)
 
-The poster and the slide files are available at each link: [poster](assets/glen_poster.pdf) and [slide](assets/glen_slide.pdf). We also provide blog posts (Korean) at [here](https://dial.skku.edu/blog/2023_glen). Please refer to the paper for more details.
+The poster and the slide files are available at each link: [poster](assets/glen_poster.pdf) and [slide](assets/glen_slide.pdf). We also provide blog posts (Korean) at [here](https://dial.skku.edu/blog/2023_glen). Please refer to the paper for more details: [arXiv](https://arxiv.org/abs/2311.03057) or [ACL Anthology](https://aclanthology.org/2023.emnlp-main.477/).
 
 
 ## Environment
