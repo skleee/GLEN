@@ -32,11 +32,11 @@ After downloading each folder, unzip it into the `data` folder. The structure of
 
 ```
 data
-├── beir
+├── BEIR_dataset
 │   ├── arguana
 │   └── nfcorpus
 ├── nq320k
-└── msmarco
+└── marco_passage
 ```
 
 - For NQ320k, we follow the same data preprocessing as [NCI](https://github.com/solidsea98/Neural-Corpus-Indexer-NCI) and the setup in [GENRET](https://github.com/sunnweiwei/GenRet), splitting the test set into two subsets; *seen test* and *unseen test*. 
