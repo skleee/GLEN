@@ -176,7 +176,6 @@ def main():
     max_output_length = data_args.max_output_length
 
     all_ids = []
-    # TODO model.lm_p의 make_doc_id와 통일
     decoder_attention_mask = torch.ones((1, max_output_length), dtype=torch.long).cuda()
     for batch in tqdm(encode_loader, dynamic_ncols=True, desc="make id"):
         with torch.no_grad():
