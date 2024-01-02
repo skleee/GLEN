@@ -4,7 +4,6 @@ huggingface-hub==0.14.1
 ipython
 numpy
 pandas
-pyserini==0.21.0
 scikit-learn
 scipy
 sentencepiece
