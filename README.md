@@ -23,7 +23,7 @@ pip install .
 ```
 
 ## Dataset
-Datasets can be downloaded from: [NQ320k](https://o365skku-my.sharepoint.com/:f:/g/personal/sk1027_o365_skku_edu/Et5O6pBBRFhDszKxUd0S3wMB05986kg_bYi_uT8SRh80QQ?e=jAEowr), [MS MARCO Passage Ranking set](https://o365skku-my.sharepoint.com/:f:/g/personal/sk1027_o365_skku_edu/Evg4kq5x2OhOtxu4IMs_39sBcxYjY6EQLoqyKh5toM9bRg?e=jZW04M), [BEIR](https://o365skku-my.sharepoint.com/:f:/g/personal/sk1027_o365_skku_edu/EuSgMCJynLdCuKFG_UldBKMB953_RsbzA1jliw2ashEEGw?e=y57m5Y).  
+Datasets can be downloaded from: [NQ320k](https://drive.google.com/drive/folders/1qYV-kAUpSDKkzvcy36pSoelTbvsiZtcQ?usp=sharing), [MS MARCO Passage Ranking set](https://drive.google.com/drive/folders/1rErON3bK0-_DeNCSQUHxcSkewSIs5c2r?usp=sharing), [BEIR](https://drive.google.com/drive/folders/1rErON3bK0-_DeNCSQUHxcSkewSIs5c2r?usp=sharing).  
 After downloading each folder, unzip it into the `data` folder. The structure of each folder is as follows.
 
 ```
@@ -68,7 +68,7 @@ sh scripts/train_glen_p1_marco.sh
 sh scripts/train_glen_p2_marco.sh
 ```
 
-You can directly download our trained checkpoints for each stage from the following link: [NQ320k](https://o365skku-my.sharepoint.com/:f:/g/personal/sk1027_o365_skku_edu/Eld_v5cO-s1ArCz-gkmjLbYBCD2f2xhgbALd6M4hoQnq5A?e=VC82mB), [MS MARCO](https://o365skku-my.sharepoint.com/:f:/g/personal/sk1027_o365_skku_edu/EnC1iEC3rApIjDcnVdVPN7ABTq2J8qYxEdw1ITfaDzR8uQ?e=vNhfoc)
+You can directly download our trained checkpoints for each stage from the following link: [NQ320k](https://drive.google.com/drive/folders/1ERopkRAJf7Ea-r_nJWoeaZFUp7e54eok?usp=sharing), [MS MARCO](https://drive.google.com/drive/folders/1mp4HIIbKnohNizLccaNFkJVMS-pJl_6T?usp=sharing)
 
 
 ## Evaluation
