@@ -14,7 +14,22 @@ The poster and the slide files are available at each link: [poster](assets/glen_
 
 ## Environment
 We have confirmed that the results are reproduced successfully in `python==3.8.12`, `transformers==4.15.0`, `pytorch==1.10.0` with `cuda 12.0`. Please create a conda environment and install the required packages with `requirements.txt`.
+```
+# Clone this repo
+git clone https://github.com/skleee/GLEN.git
+cd GLEN
 
+# Set conda environment
+conda create -n glen python=3.8
+conda activate glen
+
+# Install tevatron as editable
+pip install --editable .
+
+# Install dependencies 
+pip install -r requirements.txt
+pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
 Optionally, you can also install [GradCache](https://github.com/luyug/GradCache) to gradient cache feature during training **ranking-based ID refinement** by:
 ```
 git clone https://github.com/luyug/GradCache
