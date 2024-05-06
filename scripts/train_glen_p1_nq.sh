@@ -43,7 +43,7 @@ else
         --query_type gtq_doc_aug_qg \
         --per_device_train_batch_size 32 \
         --per_device_eval_batch_size 4 \
-        --gradient_accumulation_steps 4 \
+        --gradient_accumulation_steps 8 \
         --dropout_rate 0.1 \
         --Rdrop 0.15 \
         --aug_query True \
