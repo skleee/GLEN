@@ -38,7 +38,7 @@ pip install .
 ```
 
 ## Dataset
-Datasets can be downloaded from: [NQ320k](https://drive.google.com/drive/folders/1qYV-kAUpSDKkzvcy36pSoelTbvsiZtcQ?usp=sharing), [MS MARCO Passage Ranking set](https://drive.google.com/drive/folders/1rErON3bK0-_DeNCSQUHxcSkewSIs5c2r?usp=sharing), [BEIR](https://drive.google.com/drive/folders/1rErON3bK0-_DeNCSQUHxcSkewSIs5c2r?usp=sharing).  
+Datasets can be downloaded from: [NQ320k](https://drive.google.com/drive/folders/1qYV-kAUpSDKkzvcy36pSoelTbvsiZtcQ?usp=sharing), [MS MARCO Passage Ranking set](https://drive.google.com/drive/folders/1rErON3bK0-_DeNCSQUHxcSkewSIs5c2r?usp=sharing), [BEIR](https://drive.google.com/drive/folders/1bBNnqbEPOQ5ic1ybiVULAd8meZXA4pqC?usp=sharing).  
 After downloading each folder, unzip it into the `data` folder. The structure of each folder is as follows.
 
 ```
