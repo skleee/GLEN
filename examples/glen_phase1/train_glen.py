@@ -73,9 +73,7 @@ def main():
 
     set_seed(training_args.seed)
 
-    assert model_args.model_name_or_path.startswith(
-        "t5-"
-    ), "Only T5- are supported for GLEN"
+    assert "t5-" in model_args.model_name_or_path, "Only T5- are supported for GLEN"
 
     if model_args.model_name_or_path == "t5-large":
         model_args.num_layers = 24
@@ -210,7 +208,10 @@ def main():
         torch.distributed.barrier()
     if training_args.local_rank == 0:
         print("Loading results from main process")
-        torch.distributed.barrier()
+        if torch.distributed.is_initialized():
+            torch.distributed.barrier()
+        else:
+            print("Distributed is not initialized")
 
     # Initialize trainer
     trainer = GLENP1Trainer(

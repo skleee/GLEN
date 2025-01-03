@@ -213,7 +213,7 @@ class GLENP1Trainer(Trainer):
             # deepspeed handles loss scaling by gradient_accumulation_steps in its `backward`
             loss = loss / self.args.gradient_accumulation_steps
 
-        if self.do_grad_scaling:
+        if hasattr(self, "scaler") and self.do_grad_scaling:
             self.scaler.scale(loss).backward()
         elif self.use_apex:
             with amp.scale_loss(loss, self.optimizer) as scaled_loss:
